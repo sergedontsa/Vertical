@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="real.prop.vertical.Resource.ResourceTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-05-08T20:52:31" hostname="DESKTOP-G1N0DP8" time="0.009">
+  <properties/>
+  <testcase name="testComplainId()" classname="real.prop.vertical.Resource.ResourceTest" time="0.009"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

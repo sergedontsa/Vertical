@@ -1,0 +1,211 @@
+{
+  "groups": [
+    {
+      "name": "file",
+      "type": "real.prop.vertical.Tuples.Apartment.ApartmentDocument",
+      "sourceType": "real.prop.vertical.Tuples.Apartment.ApartmentDocument"
+    },
+    {
+      "name": "file",
+      "type": "real.prop.vertical.Tuples.Building.BuildingDocument",
+      "sourceType": "real.prop.vertical.Tuples.Building.BuildingDocument"
+    },
+    {
+      "name": "file",
+      "type": "real.prop.vertical.Tuples.Employee.EmployeeDocument",
+      "sourceType": "real.prop.vertical.Tuples.Employee.EmployeeDocument"
+    },
+    {
+      "name": "file",
+      "type": "real.prop.vertical.Tuples.Tenant.TenantDocument",
+      "sourceType": "real.prop.vertical.Tuples.Tenant.TenantDocument"
+    }
+  ],
+  "properties": [
+    {
+      "name": "file.apartment",
+      "type": "real.prop.vertical.Tuples.Apartment.Apartment",
+      "sourceType": "real.prop.vertical.Tuples.Apartment.ApartmentDocument"
+    },
+    {
+      "name": "file.apartment-id",
+      "type": "java.lang.String",
+      "sourceType": "real.prop.vertical.Tuples.Apartment.ApartmentDocument"
+    },
+    {
+      "name": "file.building",
+      "type": "real.prop.vertical.Tuples.Building.Building",
+      "sourceType": "real.prop.vertical.Tuples.Building.BuildingDocument"
+    },
+    {
+      "name": "file.building-id",
+      "type": "java.lang.String",
+      "sourceType": "real.prop.vertical.Tuples.Building.BuildingDocument"
+    },
+    {
+      "name": "file.document-format",
+      "type": "java.lang.String",
+      "sourceType": "real.prop.vertical.Tuples.Apartment.ApartmentDocument"
+    },
+    {
+      "name": "file.document-format",
+      "type": "java.lang.String",
+      "sourceType": "real.prop.vertical.Tuples.Building.BuildingDocument"
+    },
+    {
+      "name": "file.document-format",
+      "type": "java.lang.String",
+      "sourceType": "real.prop.vertical.Tuples.Employee.EmployeeDocument"
+    },
+    {
+      "name": "file.document-format",
+      "type": "java.lang.String",
+      "sourceType": "real.prop.vertical.Tuples.Tenant.TenantDocument"
+    },
+    {
+      "name": "file.document-id",
+      "type": "java.lang.Integer",
+      "sourceType": "real.prop.vertical.Tuples.Apartment.ApartmentDocument",
+      "defaultValue": 0
+    },
+    {
+      "name": "file.document-id",
+      "type": "java.lang.Integer",
+      "sourceType": "real.prop.vertical.Tuples.Building.BuildingDocument",
+      "defaultValue": 0
+    },
+    {
+      "name": "file.document-id",
+      "type": "java.lang.Integer",
+      "sourceType": "real.prop.vertical.Tuples.Employee.EmployeeDocument",
+      "defaultValue": 0
+    },
+    {
+      "name": "file.document-id",
+      "type": "java.lang.Integer",
+      "sourceType": "real.prop.vertical.Tuples.Tenant.TenantDocument",
+      "defaultValue": 0
+    },
+    {
+      "name": "file.document-type",
+      "type": "java.lang.String",
+      "sourceType": "real.prop.vertical.Tuples.Apartment.ApartmentDocument"
+    },
+    {
+      "name": "file.document-type",
+      "type": "java.lang.String",
+      "sourceType": "real.prop.vertical.Tuples.Building.BuildingDocument"
+    },
+    {
+      "name": "file.document-type",
+      "type": "java.lang.String",
+      "sourceType": "real.prop.vertical.Tuples.Employee.EmployeeDocument"
+    },
+    {
+      "name": "file.document-type",
+      "type": "java.lang.String",
+      "sourceType": "real.prop.vertical.Tuples.Tenant.TenantDocument"
+    },
+    {
+      "name": "file.employee",
+      "type": "real.prop.vertical.Tuples.Employee.Employee",
+      "sourceType": "real.prop.vertical.Tuples.Employee.EmployeeDocument"
+    },
+    {
+      "name": "file.employee-id",
+      "type": "java.lang.String",
+      "sourceType": "real.prop.vertical.Tuples.Employee.EmployeeDocument"
+    },
+    {
+      "name": "file.file-name",
+      "type": "java.lang.String",
+      "sourceType": "real.prop.vertical.Tuples.Apartment.ApartmentDocument"
+    },
+    {
+      "name": "file.file-name",
+      "type": "java.lang.String",
+      "sourceType": "real.prop.vertical.Tuples.Building.BuildingDocument"
+    },
+    {
+      "name": "file.file-name",
+      "type": "java.lang.String",
+      "sourceType": "real.prop.vertical.Tuples.Employee.EmployeeDocument"
+    },
+    {
+      "name": "file.file-name",
+      "type": "java.lang.String",
+      "sourceType": "real.prop.vertical.Tuples.Tenant.TenantDocument"
+    },
+    {
+      "name": "file.lastupdate",
+      "type": "java.util.Date",
+      "sourceType": "real.prop.vertical.Tuples.Apartment.ApartmentDocument"
+    },
+    {
+      "name": "file.lastupdate",
+      "type": "java.util.Date",
+      "sourceType": "real.prop.vertical.Tuples.Building.BuildingDocument"
+    },
+    {
+      "name": "file.lastupdate",
+      "type": "java.util.Date",
+      "sourceType": "real.prop.vertical.Tuples.Employee.EmployeeDocument"
+    },
+    {
+      "name": "file.lastupdate",
+      "type": "java.util.Date",
+      "sourceType": "real.prop.vertical.Tuples.Tenant.TenantDocument"
+    },
+    {
+      "name": "file.registerdate",
+      "type": "java.util.Date",
+      "sourceType": "real.prop.vertical.Tuples.Apartment.ApartmentDocument"
+    },
+    {
+      "name": "file.registerdate",
+      "type": "java.util.Date",
+      "sourceType": "real.prop.vertical.Tuples.Building.BuildingDocument"
+    },
+    {
+      "name": "file.registerdate",
+      "type": "java.util.Date",
+      "sourceType": "real.prop.vertical.Tuples.Employee.EmployeeDocument"
+    },
+    {
+      "name": "file.registerdate",
+      "type": "java.util.Date",
+      "sourceType": "real.prop.vertical.Tuples.Tenant.TenantDocument"
+    },
+    {
+      "name": "file.tenant",
+      "type": "real.prop.vertical.Tuples.Tenant.Tenant",
+      "sourceType": "real.prop.vertical.Tuples.Tenant.TenantDocument"
+    },
+    {
+      "name": "file.tenant-id",
+      "type": "java.lang.String",
+      "sourceType": "real.prop.vertical.Tuples.Tenant.TenantDocument"
+    },
+    {
+      "name": "file.upload-dir",
+      "type": "java.lang.String",
+      "sourceType": "real.prop.vertical.Tuples.Apartment.ApartmentDocument"
+    },
+    {
+      "name": "file.upload-dir",
+      "type": "java.lang.String",
+      "sourceType": "real.prop.vertical.Tuples.Building.BuildingDocument"
+    },
+    {
+      "name": "file.upload-dir",
+      "type": "java.lang.String",
+      "sourceType": "real.prop.vertical.Tuples.Employee.EmployeeDocument"
+    },
+    {
+      "name": "file.upload-dir",
+      "type": "java.lang.String",
+      "sourceType": "real.prop.vertical.Tuples.Tenant.TenantDocument"
+    }
+  ],
+  "hints": []
+}
