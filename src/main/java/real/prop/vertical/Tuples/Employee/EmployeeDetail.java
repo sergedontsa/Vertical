@@ -1,7 +1,6 @@
 package real.prop.vertical.Tuples.Employee;
 
 import lombok.AllArgsConstructor;
-import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
 import lombok.ToString;
 import real.prop.vertical.AuditModel.AuditModel;
@@ -14,7 +13,6 @@ import java.io.Serializable;
 @AllArgsConstructor
 @NoArgsConstructor
 @ToString
-@EqualsAndHashCode
 public class EmployeeDetail extends AuditModel implements Serializable {
     private Integer detailId;
     private String firstName;
