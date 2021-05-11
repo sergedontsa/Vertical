@@ -1,0 +1,29 @@
+version: '2'
+services:
+  db:
+    image: mariadb
+    restart: always
+    ports:
+    - 3306:3306
+    environment:
+      - MYSQL_ROOT_PASSWORD=admin
+      - MYSQL_DATABASE=vertical
+      - MYSQL_USER=root
+
+  vertical:
+    image: vertical-back
+    restart: on-failure
+    depends_on:
+      - db
+    ports:
+      - 8086:8086
+    environment:
+      - DATABASE_HOST=db
+      - DATABASE_USER=root
+      - DATABASE_PASSWORD=admin
+      - DATABASE_NAME=vertical
+      - DATABASE_PORT=3306
+#networks:
+#  vertical-networks:
+#    driver: bridge
+
