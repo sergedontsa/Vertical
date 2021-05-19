@@ -6,8 +6,8 @@ real/prop/vertical/File/UploadFileResponse.java
  real.prop.vertical.File.UploadFileResponse
 real/prop/vertical/TupleAssembler/Apartment/ApartmentDimensionAssembler.java
  real.prop.vertical.TupleAssembler.Apartment.ApartmentDimensionAssembler
-real/prop/vertical/VerticalApplication.java
- real.prop.vertical.VerticalApplication
+real/prop/vertical/Tuples/Employee/EmployeeDetail.java
+ real.prop.vertical.Tuples.Employee.EmployeeDetail
 real/prop/vertical/Controllers/Apartment/ApartmentController.java
  real.prop.vertical.Controllers.Apartment.ApartmentController
 real/prop/vertical/Enum/Profile.java
@@ -241,5 +241,5 @@ real/prop/vertical/TupleAssembler/UserModelAssembler.java
  real.prop.vertical.TupleAssembler.UserModelAssembler
 real/prop/vertical/Repository/PersonInformation/PersonInformationRepository.java
  real.prop.vertical.Repository.PersonInformation.PersonInformationRepository
-real/prop/vertical/Tuples/Employee/EmployeeDetail.java
- real.prop.vertical.Tuples.Employee.EmployeeDetail
+real/prop/vertical/VerticalApplication.java
+ real.prop.vertical.VerticalApplication

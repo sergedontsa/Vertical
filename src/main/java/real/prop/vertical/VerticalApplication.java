@@ -11,21 +11,17 @@ import real.prop.vertical.Tuples.Building.BuildingDocument;
 import real.prop.vertical.Tuples.Employee.EmployeeDocument;
 import real.prop.vertical.Tuples.Tenant.TenantDocument;
 
-
 @SpringBootApplication
 @EnableScheduling
 @EnableJpaAuditing
-@EnableConfigurationProperties({
-        EmployeeDocument.class,
-        ApartmentDocument.class,
-        TenantDocument.class,
-        BuildingDocument.class
-})
+@EnableConfigurationProperties({ EmployeeDocument.class, ApartmentDocument.class, TenantDocument.class,
+        BuildingDocument.class })
 @ConfigurationPropertiesScan("real.prop.vertical")
 public class VerticalApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(VerticalApplication.class, args);
+        System.out.println("Vertical Starting");
     }
 
 }
